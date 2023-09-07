@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+	</head>
+	<body>
+		<h1>Registration Form</h1>
+	</body>
+	<div>
+		<label>Nombre: </label>
+		<input type="text" name="name" placeholder="*Your name...">
+	</div>
+	<div>
+		<label>Apellido</label>
+		<input type="text" name="apellido" placeholder="*Your last name...">
+	</div>
+	<div>
+		<label>Email: </label>
+		<input type="text" name="Email" placeholder="Your email...">
+	</div>
+	<div>
+		<label>Contraseña: </label>
+		<input type="Password" name="Password" placeholder="*Your Password...">
+	</div>
+	<div>
+		<label>Confirmar Contraseña: </label>
+		<input type="Password" name="Password" placeholder="*Your Password...">
+	</div>
+	<div>
+		<p>Identidad de género: </p>
+		<input type="radio" name="font" value="normal" id="normal">
+		<label for="normal">Masculino</label>
+		<input type="radio" name="font" value="normal" id="normal">
+		<label for="normal">Femenino</label>
+		<input type="radio" name="font" value="normal" id="normal">
+		<label for="normal">No Binario</label>
+		<input type="radio" name="font" value="normal" id="normal">
+		<label for="normal">Prefiero no responder</label>
+	</div>
+	<div>
+		<p>Breve descripción sobre mi: </p>
+		<textarea name="comment" cols="20" rows="3"></textarea>
+	</div>
+	<div>
+		<label>Lenguaje Favorito: </label>
+		<select name="languague">
+			<option> JavaScript</option>
+			<option> Python</option>
+			<option> HTML</option>
+		</select>
+	</div>
+	<div>
+		<input type="checkbox" name="accept" id="accept">
+		<label for=¨accept¨>Si, Me gustaría recibir actualizaciones al correo</label>
+	</div>
+	<div>
+		 <input type="submit" value="Create Account">
+	</div>
+	<div>
+		<label>*Indica un campo obligatorio</label>
+	</div>
+</form>
