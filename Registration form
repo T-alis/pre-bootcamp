@@ -1,64 +1,66 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Registration Form</title>
-	</head>
-	<body>
-		<h1>Registration Form</h1>
-	</body>
-	<div>
-		<label>Nombre: </label>
-		<input type="text" name="name" placeholder="*Your name...">
-	</div>
-	<div>
-		<label>Apellido</label>
-		<input type="text" name="apellido" placeholder="*Your last name...">
-	</div>
-	<div>
-		<label>Email: </label>
-		<input type="text" name="Email" placeholder="Your email...">
-	</div>
-	<div>
-		<label>Contraseña: </label>
-		<input type="Password" name="Password" placeholder="*Your Password...">
-	</div>
-	<div>
-		<label>Confirmar Contraseña: </label>
-		<input type="Password" name="Password" placeholder="*Your Password...">
-	</div>
-	<div>
-		<p>Identidad de género: </p>
-		<input type="radio" name="font" value="normal" id="normal">
-		<label for="normal">Masculino</label>
-		<input type="radio" name="font" value="normal" id="normal">
-		<label for="normal">Femenino</label>
-		<input type="radio" name="font" value="normal" id="normal">
-		<label for="normal">No Binario</label>
-		<input type="radio" name="font" value="normal" id="normal">
-		<label for="normal">Prefiero no responder</label>
-	</div>
-	<div>
-		<p>Breve descripción sobre mi: </p>
-		<textarea name="comment" cols="20" rows="3"></textarea>
-	</div>
-	<div>
-		<label>Lenguaje Favorito: </label>
-		<select name="languague">
-			<option> JavaScript</option>
-			<option> Python</option>
-			<option> HTML</option>
-		</select>
-	</div>
-	<div>
-		<input type="checkbox" name="accept" id="accept">
-		<label for=¨accept¨>Si, Me gustaría recibir actualizaciones al correo</label>
-	</div>
-	<div>
-		 <input type="submit" value="Create Account">
-	</div>
-	<div>
-		<label>*Indica un campo obligatorio</label>
-	</div>
-</form>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="name" placeholder="*Tu nombre...">
+        </div>
+        <div>
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="*Tu apellido...">
+        </div>
+        <div>
+            <label for="Email">Email: </label>
+            <input type="text" id="Email" name="Email" placeholder="Tu correo electrónico...">
+        </div>
+        <div>
+            <label for="Password">Contraseña: </label>
+            <input type="password" id="Password" name="Password" placeholder="*Tu contraseña...">
+        </div>
+        <div>
+            <label for="ConfirmPassword">Confirmar Contraseña: </label>
+            <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="*Confirma tu contraseña...">
+        </div>
+        <div>
+            <p>Identidad de género: </p>
+            <input type="radio" name="gender" value="masculino" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="gender" value="femenino" id="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="gender" value="no_binario" id="no_binario">
+            <label for="no_binario">No Binario</label>
+            <input type="radio" name="gender" value="no_responder" id="no_responder">
+            <label for="no_responder">Prefiero no responder</label>
+        </div>
+        <div>
+            <p>Breve descripción sobre mí: </p>
+            <textarea id="comment" name="comment" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="languague">Lenguaje Favorito: </label>
+            <select id="languague" name="languague">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="HTML">HTML</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="accept" name="accept">
+            <label for="accept">Sí, me gustaría recibir actualizaciones por correo</label>
+        </div>
+        <div>
+            <input type="submit" value="Crear Cuenta">
+        </div>
+        <div>
+            <label>*Indica un campo obligatorio</label>
+        </div>
+    </form>
+</body>
+</html>
