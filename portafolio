@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Programmer Name</title>
+</head>
+	<body>
+		<h1>Tiare Alvarez</h1>
+		<img src="foto de perfil.png" alt="foto de perfil pic" height="128px">
+	<p>
+		<img src="github.png" alt="github pic" width="25px"  height="15px">
+		<a href="https://github.com/T-alis"> my github</a>
+
+		<img src="linkedin.jpg" alt="linkeding pic" width="15px" height="15px">
+		<a href="https://www.linkedin.com/in/tiarealvarez/"> my linkedin</a>
+
+		<img src="gmail.png" alt="gmail pic" width="15px" height="15px">
+		<a href="https://mail.google.com/mail/u/1/#inbox"> my gmail</a>
+	</p>
+	</body>
+		<h3>Technologies:</h3>
+			<table border="1">
+	<tbody>
+		<tr>
+			<th>Front-End</th>
+			<th>Python</th>
+			<th>JavaScript</th>
+			<th>Database</th>
+			<th>Concepts</th>
+		</tr>
+		<tr>
+			<td>HTML5</td>
+			<td>Django</td>
+			<td>Express</td>
+			<td>MySQL</td>
+			<td>AJAX</td>
+		</tr>
+		<tr>
+			<td>CSS3</td>
+			<td>Flask</td>
+			<td>Mongoose</td>
+			<td>MongoDB</td>
+			<td>OOP</td>
+		</tr>
+		<tr>
+			<td>Bootstrap</td>
+			<td>Unittest</td>
+			<td>React</td>
+			<td></td>
+			<td>REST</td>
+		</tr>
+	</tbody>
+</table>
+<h3>Social Snakes</h3>
+<img src="sneke.png" alt="sneke" width="60" height="60px">
+<div>Social Media App made in Python <a href="#">code</a> | <a href="#">deployed</a></div>
+<h4>Contact Me</h4>
+<form>
+	<div>
+		<label>Name:</label>
+		<input type="text" name="Name" placeholder="Tiare Alvarez">
+		<label>Email:</label>
+		<input type="text" name="Email" placeholder="tiare.aalarcon@gmail.com">
+	</div>
+	<div>
+			<label>Message:</label>
+			<textarea name="comment" cols="20" rows="3"></textarea>
+	</div>
+	<p>
+		<input type="submit" value="Send Message">
+	</p>
+	</form>
+</html>
