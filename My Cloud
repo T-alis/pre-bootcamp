@@ -16,3 +16,41 @@
 </div>
 </body>
 </html>
+---------------------------------------------------------
+h1{
+	color: cyan;
+	background-color: black;
+	font-size: 45px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+.quote p{
+	color: white;
+	background-color: rebeccapurple;
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+	font-family: sans-serif;
+	padding-bottom: 8px;
+	padding-top: 1px;
+	margin-top: 10px;
+}
+
+.contact p {
+	background-color: skyblue;
+	font-size: 23px;
+	text-align: right;
+	text-decoration: underline;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+body{
+	margin: 15px;
+}
+
+div{
+	height: 40px;
+}
