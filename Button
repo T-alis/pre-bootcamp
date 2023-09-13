@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <button class="btn-search">Search</button> 
+    </div> 
+    <div> 
+        <button class="btn-add">+</button>
+    </div> 
+    <div>
+        <button class="btn-account">Create Account</button>
+    </div>
+</body>
+</html>
+-----------------------------------------------------------------
+.btn-search {
+	font-weight: 600;
+	width: 160px;
+	font-size: 12pt;
+	color: #7dc8c8;
+	border-color:#7dc8c8;
+	border-radius: 30%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 2px solid #7dc8c8;
+	background-color: white;
+	margin-bottom: 10px;
+	margin-top: 70px;
+	height: 30px;
+}
+
+.btn-add {
+	font-size:25px;
+	width: 40px;
+	color: white;
+	background-color: #00d1d2;
+	border-radius: 50%;
+	border: none;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+.btn-account {
+	font-size: 17px;
+	width: 190px;
+	color: white;
+	background-color:#2b78e4;
+	border: 2px solid black;
+	box-shadow: 3px 3px black;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+.btn-account, .btn-add, .btn-search {
+	display: block;
+	margin-left: 70px
+}
