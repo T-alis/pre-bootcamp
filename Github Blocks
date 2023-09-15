@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GitHub Blocks</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>GitHub Blocks</h1>
+	<div class="container">
+		<div class="line_one">
+			<img src="ironman.jpg" alt="ironman" height="200px">
+			<img src="spider.png" alt="spider" height="200px">
+			<img src="octo.png" alt="octo" height="200px">
+		</div>
+		<div class="line_two">
+			<img src="dino.png" alt="dino" height="200px">
+			<img src="pusheen.png" alt="pusheen" height="200px">
+		</div>
+		<div class="line_three">
+			<img src="finn.png" alt="finn" height="200px">
+			<img src="superman.jpg"	alt="superman" height="200px">
+			<img src="python.png" alt="python" height="200px">
+		</div>
+	</div>
+	<p>Images from<a href="https://octodex-github-com.translate.goog/"> GitHub Octodex</a>
+	</p>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	color: darkslategrey;
+	font-size: 50px;
+}
+ 
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.line_one {
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: lightgreen;
+}
+
+.line_two {
+	margin-top: 20px;
+	width: 850px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: lightpink;
+}
+
+.line_three {
+	margin-top: 20px;
+	width: 850px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color: lightskyblue;
+}
+
+p {
+	text-align: center;
+	font-family: monospace;
+	font-size: 15px;
+}
