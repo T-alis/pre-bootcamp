@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Barra de navegacion con flex</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="nav">
+    <h1 class="nav-title">Profile</h1>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+    	<li><a href="#" class="active">My Profile</a></li>
+    	<li><a href="#">Find Connections</a></li>
+        <li><button class="btn">Sing out</button></li>
+    </ul>
+</body>
+</html>
+-----------------------------------------------------------------------
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+	display: flex;
+	background-color: #333333;
+	width: 1338px;
+	height: 60px;
+	color: white;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-title {
+	margin-left: 20px;
+}
+
+.nav-links {
+	width: 40%;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
