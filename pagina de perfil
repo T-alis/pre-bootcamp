@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<nav>
+    <ul class="navi">
+        <h2>
+            <li>Profile</li>
+        </h2>
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Find Connections</li>
+    </ul>
+        <button>Sing Out</button>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="user-cont">
+            <div class="flex-container">
+                <div class="user-card">
+                    <div class="user-header">
+                        <img id="profile" src="jane-m.jpg" alt="profile">
+                </div>
+                 <div class="card-body">
+                    <h3>Jane Doe</h3>
+                    <div class="place">
+                        <img class="icon" src="map-marker.png" alt="map"> <span>Seattle</span>
+                    </div>
+                    <div>
+                        <p class="text">Developer | Enginner | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                    </div>
+                        <div class="editprofile">
+                            <img class="icon" src="gear.png" alt="gear">
+                            <a href="#">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="noticias">
+                    <div class="titulonoticias">
+                        <h4 class="titulo1" >Education</h4>
+                    </div>
+                    <div class="informacion">
+                        <h4>Coding Dojo - Full Stack Bootcamp</h4>
+                        <p>Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN and C#...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="azulito">
+            <div class="rosadito">
+                <div class="connections">
+                    <div class="solicitudes">
+                        <div class="numerodesolicitudes">
+                        <p id="numero">2</p>
+                        <h6>Connection Request</h6>
+                    </div>
+                        <div class="persona">
+                            <img id="todd" src="todd-s.jpg" alt="todd">Todd E
+                            <img class="quieres" src="accept-circle.png" alt="acertar">
+                            <img class="quieres" src="close-circle.png" alt="no">
+                        </div class="persona">
+                        <div>
+                            <img id="phil" src="phil-s.jpg" alt="phil"> Phil K
+                            <img class="quieres" src="accept-circle.png" alt="acertar">
+                            <img class="quieres" src="close-circle.png" alt="no">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="celestito">
+                <div class="connectionsf">
+                <div class="numerodesolicitudes">
+                    <p id="numero1">500+</p>
+                    <h6>Your Connections</h6>
+                </div>
+                <div class="persona">
+                    <img id="friend" src="adrien-s.jpg" alt="adrien"><span class="people">Andrien D</span>
+                    <img id="friend" src="anne-s.jpg" alt="anne"><span class="people">Anne J</span>
+                    <img id="friend" src="alayne-s.jpg" alt="alayne-s"><span class="people">Alayne T</span>
+                    <img id="friend" src="arry-s.jpg" alt="arry-s"><span class="people">Arry Y</span>
+                </div>
+                <div class="masamigos">
+                    <a href="#">View more</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+h2{
+    font-size: 30px;
+}
+button {
+    background-color: #17a2b8;
+    color: white;
+    width: 95px;
+    font-size: 15px;
+}
+
+.container {
+    border: 5px solid white;
+    display: flex;
+}
+
+.user-cont {
+    height: 690px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.flex-container {
+    flex: 2;
+    height: 50px;
+}
+
+.user-card {
+    border: 2px solid grey;
+    height: 400px;
+    width: 600px;
+    margin: 25px;
+    margin-left: 100px;
+}
+
+.user-header{
+    background-color: #17a2b8;
+    position: relative;
+    height: 100px;
+}
+
+#profile {
+    border-radius: 50%;
+    left: 10px;
+    top: 50px;
+    height: 100px;
+    position: absolute;
+
+}
+
+.card-body {
+    margin-left: 25px;
+    margin-top: 80px;
+}
+h3{
+    font-size: 30px;
+}
+
+.text {
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+.icon {
+    height: 20px;
+    margin-top: 15px;
+}
+
+.news {
+    flex: 1;
+}
+
+.noticias {
+    border: 2px solid grey;
+    height: 200px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.titulonoticias {
+    background-color: #393A3A;
+    color: white;
+    padding: 5px;
+}
+
+h4{
+    font-size: 18px;
+}
+.titulo1 {
+    margin-left: 20px;
+}
+
+.informacion {
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+.azulito {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin: 0px;
+}
+
+.rosadito {
+    flex: 1;
+}
+
+.connections {
+    border: 2px solid black;
+    height: 200px;
+    width: 233px;
+    margin: 25px;
+    margin-left: 45px;
+}
+
+.solicitudes {}
+
+.numerodesolicitudes {
+    align-items: center;
+    background-color: #393A3A;
+    display: flex;
+    height: 35px;
+}
+
+#numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(196, 196, 196);
+    color: black;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+h6 {
+    font-size: 12px;
+    color: white;
+}
+
+.persona {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quieres {
+    margin: 2px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+#todd {
+    height: 50px;
+    padding:0px 20px;
+    border-radius: 50%;
+    margin-top: 15px;
+   
+}
+
+#phil {
+    height: 50px;
+    border-radius: 50%;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.celestito {
+    flex: 2;
+
+}
+.connectionsf{
+    border: 2px solid gray;
+    height: 300px;
+    width: 233px;
+    margin: 25px;
+    margin-left: 45px;
+}
+
+#numero1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 45px;
+    background-color: rgb(196, 196, 196);
+    color: black;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#friend{
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 10px;
+    padding:0px 20px 0px 25px;
+}
+
+.people{
+    padding-left: 2px;
+    font-size: 15px;
+    padding-right: 20px;
+
+}
+
+.masamigos{
+    padding-left: 10px;
+    border: 2px solid gray;
+    height: 35px;
+    width: 220px;
+    margin-top: 10px;
+}
